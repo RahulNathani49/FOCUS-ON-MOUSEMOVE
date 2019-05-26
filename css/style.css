@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9)),url(../images/city.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size:30px;
+    font-family:monospace;
+}
+#mycursor{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    position: absolute;
+    background-image:url(../images/city.jpg);
+    background-attachment: fixed;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
